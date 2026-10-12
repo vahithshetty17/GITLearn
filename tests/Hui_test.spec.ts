@@ -10,6 +10,7 @@ test.describe("Sauce demo" ,()=>{
     await page.locator("//input[@id='login-button']").click();
 
 })
+})
 
 
 test("add item to the cart", async({page})=>{
@@ -21,8 +22,8 @@ test("add item to the cart", async({page})=>{
     await page.locator("//input[@id='first-name']").fill("shetty")
     await page.locator("//input[@id='last-name']").fill("vahith");
     await page.locator("//input[@id='postal-code']").fill("456745")
-    console.log("vahith")
-})
+    console.log("GIT LEARNING")
+
 
 test("Naviagte to the breadscrumb", async({page})=>{
 
@@ -30,9 +31,16 @@ test("Naviagte to the breadscrumb", async({page})=>{
     await page.locator("(//a[normalize-space()='Logout'])[1]").click();
     console.log("avhith shetty")
    console.log("shetty")
+    console.log("GIT REBASE")
+    console.log("cicd")
+    
 
+
+})
+
+test("test1", async({page})=>{
+    console.log("i am vahith")
 })
 
 
 })
-
