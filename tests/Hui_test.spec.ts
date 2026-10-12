@@ -33,18 +33,12 @@ test("Naviagte to the breadscrumb", async({page})=>{
     console.log("GIT REBASE")
     console.log("cicd")
     
-<<<<<<< HEAD
-
-
-})
-=======
->>>>>>> develop
 
 
 })
 
 test("test1", async({page})=>{
-    console.log("i am learning")
+    console.log("i am vahith")
 })
 
 
