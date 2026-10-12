@@ -10,6 +10,7 @@ test.describe("Sauce demo" ,()=>{
     await page.locator("//input[@id='login-button']").click();
 
 })
+})
 
 
 test("add item to the cart", async({page})=>{
